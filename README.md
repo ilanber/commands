@@ -11,3 +11,7 @@ Documentation of commands
 1. npx create-react-app my-app
 2. cd my-app
 3. npm start
+
+# Add fetch jsonp
+1. `npm install fetch-jsonp`
+2. USE: `import fetchJsonp from 'fetch-jsonp';`
