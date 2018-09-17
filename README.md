@@ -15,3 +15,11 @@ Documentation of commands
 # Add fetch jsonp
 1. `npm install fetch-jsonp`
 2. USE: `import fetchJsonp from 'fetch-jsonp';`
+
+# Json Mock Server
+1. `npm` init - package.json
+2. `npm install --save json-server`
+3. 'npm run json:server' - "josn:server" is custom and can be chaned
+
+# Build
+1. `npm run-script build`
