@@ -1,7 +1,7 @@
 # Commands & Installs
 Commads and installs doc.
 
-#Add SASS librarry 'node-sass' package to any.
+## Add SASS librarry 'node-sass' package to any.
 1. Generic: `npm init` - 'package.json' file.
 2. Generic: `npm install` - node_modules.
 3. `npm install -g node-sass` - 'node-sass' package globally.
