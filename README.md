@@ -11,10 +11,10 @@ Commads and installs doc.
   transpiled css styles.')
 6. RUN-BUILD: `npm run scss` - will create a transpiled .css file in your /css/ folder.
 7. Notes:
-    a. Make sure to verify the path of the /scss/ and /css/ folders in the 'package.json' file.
-    b. Create the /scss/ folder first with a scss file (example: style.scss) and a /css/ folder without a .css 
+    - Make sure to verify the path of the /scss/ and /css/ folders in the 'package.json' file.
+    - Create the /scss/ folder first with a scss file (example: style.scss) and a /css/ folder without a .css 
     file in it so the RUN cimmand will create it at first for you.
-    c. once you RUN, each save will update automatically the .css generatd file. so no need to RUN after every change.
+    - once you RUN, each save will update automatically the .css generatd file. so no need to RUN after every change.
 
 ## Add SASS to ReactJS
 1. start the project with: `create-react-app app --scripts-version react-scripts-sass`
