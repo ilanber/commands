@@ -1,5 +1,23 @@
-# commands
-Commands documentation.
+# Commands & Installs
+Commads and installs doc.
+
+#Add SASS librarry 'node-sass' package to any.
+1. Generic: `npm init` - 'package.json' file.
+2. Generic: `npm install` - node_modules.
+3. `npm install -g node-sass` - 'node-sass' package globally.
+4. Check the 'dependecies' prop in 'package.json' includes the 'node-ass' with current version.
+5. Add to the 'scripts' prop in 'package.json' this line watcher `"scss": "node-sass --watch scss -o css"`. 
+  ('--watch sass is the folder where all .scss development files and --o css is the a folder that will hold the
+  transpiled css styles.')
+6. RUN-BUILD: `npm run scss` - will create a transpiled .css file in your /css/ folder.
+7. Notes:
+    a. Make sure to verify the path of the /scss/ and /css/ folders in the 'package.json' file.
+    b. Create the /scss/ folder first with a scss file (example: style.scss) and a /css/ folder without a .css 
+    file in it so the RUN cimmand will create it at first for you.
+    c. once you RUN, each save will update automatically the .css generatd file. so no need to RUN after every change.
+
+
+
 
 # Add SASS to ReactJS
 1. start the project with: `create-react-app app --scripts-version react-scripts-sass`
