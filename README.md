@@ -38,3 +38,14 @@ Commads and installs doc.
 
 ## Build
 1. `npm run-script build`
+
+## Git
+1. `git init`
+2. `touch [filename]` - create file (`ls` - see files and folders `nano [filename]` edit file)
+3. `git add .`
+4. `git commit -m ["any messege"]`
+5. Create a repo in GitHub.
+6. `git remote add [name] [git repo url from GitHub]
+7. `git push --set-upstream [name] master'
+8. `git checkout -b [branch name]`
+
